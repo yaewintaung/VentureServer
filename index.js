@@ -3,7 +3,13 @@ import path from "path";
 import { fileURLToPath } from "url";
 import express from "express";
 import cors from "cors";
+
+import fs from "fs";
 import { GenerateOpenRouter } from "./openRouter.js";
+
+const userDataFile = "./data/userData.json";
+
+if (!fs.existsSync(userDataFile)) fs.writeFileSync(userDataFile, "{}");
 
 const app = express();
 
@@ -14,6 +20,13 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 app.use(express.static(path.join(__dirname, "public")));
 
+function loadMemory() {
+  return JSON.parse(fs.readFileSync(userDataFile, "utf-8"));
+}
+function saveMemory(data) {
+  fs.writeFileSync(userDataFile, JSON.stringify(data, null, 2));
+}
+
 const GenerateTasks = async (topic) => {
   const response = await ollama.chat({
     model: "mistral",
@@ -21,10 +34,12 @@ const GenerateTasks = async (topic) => {
       {
         role: "system",
         content: `You are a productivity assistant. 
-        Generate [{task:"value"}]
-        Output must be only json array
+        notes: if your prompt is not a task type prompt return [{task:"error"}]
+        Generate this format [{task:"value"}]
+        Output must be only json object array
          (with no extra words in your answer) 
-        of 5 daily small tasks titles (short text possible)  by the user's prompt`,
+        of 5 daily small tasks titles (short text possible)  by the user's prompt
+        `,
       },
       {
         role: "user",
@@ -32,7 +47,10 @@ const GenerateTasks = async (topic) => {
       },
     ],
   });
-  return JSON.parse(response.message.content);
+  const content = response.message.content;
+  console.log(content);
+
+  return JSON.parse(content);
 };
 
 app.post("/generate-tasks", async (req, res) => {
@@ -61,6 +79,10 @@ app.post("/generate-tasks", async (req, res) => {
     console.error(err);
     res.status(500).json({ error: "Failed to generate tasks" });
   }
+});
+
+app.post("/create-user", async (req, res) => {
+  const { user_data } = req.body;
 });
 
 const PORT = 3000;

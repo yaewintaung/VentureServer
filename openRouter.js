@@ -24,6 +24,5 @@ export async function GenerateOpenRouter(topic) {
       },
     ],
   });
-
   return JSON.parse(completion.choices[0].message.content);
 }
