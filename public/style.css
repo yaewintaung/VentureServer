@@ -1,0 +1,105 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f6f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  min-width: 500px;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #0078ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #005fd1;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+}
+
+#task-list li {
+  background: #f0f4ff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#task-list li input[type="checkbox"] {
+  /* margin-right: 10px; */
+  flex: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #777;
+}
+.custom-select {
+  display: block; /* Make it take its own line */
+  padding: 10px 15px;
+  margin-top: 5px;
+  border: 2px solid #3498db; /* Blue border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f7f9fb; /* Light background */
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-appearance: none; /* Removes default browser styling for Chrome/Safari */
+  -moz-appearance: none; /* Removes default browser styling for Firefox */
+  appearance: none; /* Removes default browser styling */
+  /* Add a custom down arrow (optional but common for custom selects) */
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%233498db%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13.2-5.6H18.6c-5.4%200-10.4%202.1-14.1%205.9-3.7%203.8-5.8%208.8-5.7%2014.1%200%205.4%202.1%2010.5%205.9%2014.1L135.2%20263.4c3.7%203.7%208.7%205.8%2014.1%205.8s10.5-2.1%2014.1-5.9l115.3-165.7c3.7-3.7%205.9-8.8%205.9-14.2%200-5.4-2.1-10.5-5.8-14.1z%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+  background-size: 12px auto;
+  padding-right: 30px; /* Make space for the custom arrow */
+}
+
+/* Focus state for accessibility and visual feedback */
+.custom-select:focus {
+  outline: none;
+  border-color: #2980b9; /* Darker blue on focus */
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Styling the options (less control here, browser dependent) */
+.custom-select option {
+  padding: 10px;
+}

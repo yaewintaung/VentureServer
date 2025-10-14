@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Task Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🧠 AI Task Generator</h1>
+      <div class="input-section">
+        <select id="color-select" name="colors" class="custom-select">
+          <option value="mistral">Mistral</option>
+          <option value="gpt-4o">Gpt-40</option>
+        </select>
+        <input
+          id="topic"
+          type="text"
+          placeholder="Enter your topic (e.g. study, fitness)"
+        />
+        <button id="generate">Generate Tasks</button>
+      </div>
+
+      <ul id="task-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
