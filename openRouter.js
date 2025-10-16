@@ -1,4 +1,5 @@
 import OpenAI from "openai";
+import { prompt2 } from "./prompts.js";
 
 const openai = new OpenAI({
   baseURL: "https://openrouter.ai/api/v1",
@@ -12,15 +13,11 @@ export async function GenerateOpenRouter(topic) {
     messages: [
       {
         role: "system",
-        content: `You are a productivity assistant. 
-        Generate [{task:"value"}]
-        Output must be only json array
-         (with no extra words in your answer) 
-        of 5 daily small tasks titles (short text possible)  by the user's prompt`,
+        content: `${prompt2}`,
       },
       {
         role: "user",
-        content: `${topic}`,
+        content: `Now, generate tasks for this user goal: "${topic}"`,
       },
     ],
   });

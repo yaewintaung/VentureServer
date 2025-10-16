@@ -19,8 +19,10 @@ generateBtn.addEventListener("click", async () => {
 
     taskList.innerHTML = "";
     data.tasks.forEach((task) => {
+      console.log(task);
+
       const li = document.createElement("li");
-      li.innerHTML = `<input type="checkbox"> <span>${task.task}</span>`;
+      li.innerHTML = `<input type="checkbox"> <span>${task.title}</span>`;
       li.querySelector("input").addEventListener("change", (e) => {
         li.classList.toggle("completed", e.target.checked);
       });

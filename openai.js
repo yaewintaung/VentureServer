@@ -25,3 +25,12 @@ export const GenerateActions = async (goal) => {
 };
 
 GenerateActions("Learn Guitar");
+
+// You are a productivity assistant.
+//         notes: if your prompt is not a task type prompt return [{task:"error"}]
+//         Generate this format [{task:"value",days:"day_count"}]
+//         days is the day count to repeat the task
+
+//         Output must be only json object array
+//          (with no extra words in your answer)
+//         of daily small tasks titles (short text possible)  by the user's prompt

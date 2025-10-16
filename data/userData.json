@@ -1,1 +1,510 @@
-{}
+[
+  {
+    "username": "Yae Wint Aung",
+    "email": "me@gmail.com",
+    "chatId": "1893030957",
+    "education": "asdf",
+    "interest": "asdf",
+    "id": "01K7KGV79HHKTCWTP9YWXFEX1Y",
+    "groups": [
+      {
+        "id": "01K7KH4XA3DMAV9WAW6QQKQ306",
+        "group_title": "To do sec",
+        "subTasks": [
+          {
+            "id": "01K7KHEQNPS3P1EPMDGDMDZM05",
+            "title": "Task1",
+            "tasks": [
+              {
+                "title": "Test",
+                "completed": false,
+                "date": "2025-10-15T12:25:55.857Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7KHG9WSV7EFD1EMQXB5191B",
+            "title": "Task2",
+            "tasks": [
+              {
+                "title": "Test",
+                "completed": false,
+                "date": "2025-10-15T12:25:55.857Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "01K7KH5W5RC21F1C8PP842YHX6",
+        "group_title": "To do fir",
+        "subTasks": []
+      },
+      {
+        "id": "01K7M4BRQEHR4V1P8P90HCJ622",
+        "group_title": "Learn Guitar",
+        "subTasks": [
+          {
+            "id": "01K7M4BRQF3QFTX1RVGS0NVZFK",
+            "title": "Acquire Necessary Equipment",
+            "tasks": [
+              {
+                "id": "01K7M4BRQF3HYFYCSQ4W0VQKW4",
+                "title": "Purchase a guitar",
+                "completed": false,
+                "date": "2023-01-01T00:00:00.000Z"
+              },
+              {
+                "id": "01K7M4BRQF6WA316C9DY7CKGJ0",
+                "title": "Buy an amp",
+                "completed": false,
+                "date": "2023-01-05T00:00:00.000Z"
+              },
+              {
+                "id": "01K7M4BRQFST1NR9Y3ZVGDXT6P",
+                "title": "Gather accessories like strings and picks",
+                "completed": false,
+                "date": "2023-01-10T00:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7M4BRQF5PJS8H493Q14A3W2",
+            "title": "Learn Basic Chords",
+            "tasks": [
+              {
+                "id": "01K7M4BRQFAW21EGHGK84NPSEX",
+                "title": "Learn the Em chord",
+                "completed": false,
+                "date": "2023-01-15T00:00:00.000Z"
+              },
+              {
+                "id": "01K7M4BRQF4TPGTFMAPYHZM5A5",
+                "title": "Learn the Am chord",
+                "completed": false,
+                "date": "2023-01-20T00:00:00.000Z"
+              },
+              {
+                "id": "01K7M4BRQFP875SM3FAP636EC4",
+                "title": "Learn the C chord",
+                "completed": false,
+                "date": "2023-01-25T00:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7M4BRQFCFRCQJD6QAYFPN3Y",
+            "title": "Learn Basic Strumming Patterns",
+            "tasks": [
+              {
+                "id": "01K7M4BRQFZ6WBZRKZ52DWGZJ0",
+                "title": "Master the down-up strumming pattern",
+                "completed": false,
+                "date": "2023-01-30T00:00:00.000Z"
+              },
+              {
+                "id": "01K7M4BRQFAHMCZRE9E7ND4YDV",
+                "title": "Learn the G-D-U strumming pattern",
+                "completed": false,
+                "date": "2023-02-05T00:00:00.000Z"
+              },
+              {
+                "id": "01K7M4BRQGFXN3MSQ28RV93RV3",
+                "title": "Learn the D-U-D-U strumming pattern",
+                "completed": false,
+                "date": "2023-02-10T00:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "01K7M5M1H4D19GME3NKWK337DY",
+        "group_title": "Learn Python",
+        "subTasks": [
+          {
+            "id": "01K7M5M1H69SYWCDTP7DJH28WD",
+            "title": "Set Up Python Environment",
+            "tasks": [
+              {
+                "id": "01K7M5M1H6Z5RP76DJ7F9RKCZR",
+                "title": "Download and Install Python",
+                "completed": false,
+                "date": "2023-11-27T12:00:00.000Z"
+              },
+              {
+                "id": "01K7M5M1H66FC0VKF45XZP3TSF",
+                "title": "Set up a Python IDE (e.g., PyCharm or VSCode)",
+                "completed": false,
+                "date": "2023-11-27T12:00:00.000Z"
+              },
+              {
+                "id": "01K7M5M1H6AZZS6G8EA402N9TQ",
+                "title": "Verify the installation by running a simple script",
+                "completed": false,
+                "date": "2023-11-27T12:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7M5M1H612RQP3FDHQ34Q060",
+            "title": "Learn Basic Syntax",
+            "tasks": [
+              {
+                "id": "01K7M5M1H6YK2Q361WHGGM2DEH",
+                "title": "Understand variables and data types",
+                "completed": false,
+                "date": "2023-11-27T12:00:00.000Z"
+              },
+              {
+                "id": "01K7M5M1H7V0A6X4NWD8YY7FWH",
+                "title": "Learn how to write and run a basic Python script",
+                "completed": false,
+                "date": "2023-11-27T12:00:00.000Z"
+              },
+              {
+                "id": "01K7M5M1H73THQT6DTTRDWGTQS",
+                "title": "Practice using simple operators and expressions",
+                "completed": false,
+                "date": "2023-11-27T12:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7M5M1H7Q0MARRZXG8W15P71",
+            "title": "Understand Control Flow",
+            "tasks": [
+              {
+                "id": "01K7M5M1H7M9G3NV0RKE36A43D",
+                "title": "Learn about conditional statements",
+                "completed": false,
+                "date": "2023-11-27T12:00:00.000Z"
+              },
+              {
+                "id": "01K7M5M1H76HEWPAA99F02XNZY",
+                "title": "Explore loops - for and while",
+                "completed": false,
+                "date": "2023-11-27T12:00:00.000Z"
+              },
+              {
+                "id": "01K7M5M1H78FEPN5SX2CQF0KSD",
+                "title": "Apply control flow in simple programs",
+                "completed": false,
+                "date": "2023-11-27T12:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7M5M1H7WK47H0BKWE60VXH6",
+            "title": "Work with Data Structures",
+            "tasks": [
+              {
+                "id": "01K7M5M1H7GDA8N2H85J8D2ZPZ",
+                "title": "Understand lists and tuples",
+                "completed": false,
+                "date": "2023-11-27T12:00:00.000Z"
+              },
+              {
+                "id": "01K7M5M1H7Z6PMXPG1JDHPGHEH",
+                "title": "Learn about dictionaries and sets",
+                "completed": false,
+                "date": "2023-11-27T12:00:00.000Z"
+              },
+              {
+                "id": "01K7M5M1H7C5ETH8NMQX6WE82X",
+                "title": "Practice using data structures in Python scripts",
+                "completed": false,
+                "date": "2023-11-27T12:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7M5M1H73M2NQREA7M55NZ0F",
+            "title": "Functions and Modules",
+            "tasks": [
+              {
+                "id": "01K7M5M1H8ZG50HHTT1CSPZFS4",
+                "title": "Learn how to define and call functions",
+                "completed": false,
+                "date": "2023-11-27T12:00:00.000Z"
+              },
+              {
+                "id": "01K7M5M1H8YEGTJV8W6Z5QNMBV",
+                "title": "Understand the use of parameters and return values",
+                "completed": false,
+                "date": "2023-11-27T12:00:00.000Z"
+              },
+              {
+                "id": "01K7M5M1H8615S334Q90AMMMN2",
+                "title": "Explore Python modules and importing",
+                "completed": false,
+                "date": "2023-11-27T12:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "01K7MD6JRW73WG9RPSFXDSSWZN",
+        "group_title": "Plan a Vacation in Myanmar",
+        "subTasks": [
+          {
+            "id": "01K7MD6JRX3ZBNZ95R9NQP41B3",
+            "title": "Research Myanmar Destinations",
+            "tasks": [
+              {
+                "id": "01K7MD6JRX6SXK554FDENWFW6V",
+                "title": "Read about popular destinations in Myanmar",
+                "completed": false,
+                "date": "2023-10-12T14:01:23.000Z"
+              },
+              {
+                "id": "01K7MD6JRXDVYTYRJHP04MQH1G",
+                "title": "Identify must-see landmarks in Myanmar",
+                "completed": false,
+                "date": "2023-10-12T14:01:23.000Z"
+              },
+              {
+                "id": "01K7MD6JRXHZC6490BJVR56Y8E",
+                "title": "Read reviews and travel blogs about Myanmar",
+                "completed": false,
+                "date": "2023-10-12T14:01:23.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7MD6JRX0NBW59R852A0Y5ZX",
+            "title": "Create an Itinerary",
+            "tasks": [
+              {
+                "id": "01K7MD6JRXNN02CVHK63JB00GK",
+                "title": "List all the places to visit",
+                "completed": false,
+                "date": "2023-10-12T14:01:23.000Z"
+              },
+              {
+                "id": "01K7MD6JRYZZ9Q32SC4XQG01VP",
+                "title": "Plan daily activities",
+                "completed": false,
+                "date": "2023-10-12T14:01:23.000Z"
+              },
+              {
+                "id": "01K7MD6JRY1VG8N6GFT6S396EM",
+                "title": "Check travel times between destinations",
+                "completed": false,
+                "date": "2023-10-12T14:01:23.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7MD6JRY3Y607A76AZP17XFJ",
+            "title": "Book Accommodations",
+            "tasks": [
+              {
+                "id": "01K7MD6JRYEN4TGAH65HSC4KM1",
+                "title": "Search for hotels and guesthouses",
+                "completed": false,
+                "date": "2023-10-12T14:01:23.000Z"
+              },
+              {
+                "id": "01K7MD6JRYFSTMC5WXFJH2BBYW",
+                "title": "Read reviews for potential places to stay",
+                "completed": false,
+                "date": "2023-10-12T14:01:23.000Z"
+              },
+              {
+                "id": "01K7MD6JRYTHTWG627P39424EE",
+                "title": "Make reservations",
+                "completed": false,
+                "date": "2023-10-12T14:01:23.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7MD6JRYHBSVZNSVYRWS1DBG",
+            "title": "Prepare Travel Essentials",
+            "tasks": [
+              {
+                "id": "01K7MD6JRYVK8CNCZQZG6SE03Q",
+                "title": "Check visa requirements for Myanmar",
+                "completed": false,
+                "date": "2023-10-12T14:01:23.000Z"
+              },
+              {
+                "id": "01K7MD6JRYAJWABEK91GE4NQ29",
+                "title": "Buy travel insurance",
+                "completed": false,
+                "date": "2023-10-12T14:01:23.000Z"
+              },
+              {
+                "id": "01K7MD6JRYA6PT43VTTXMTCZ1F",
+                "title": "Make a packing list",
+                "completed": false,
+                "date": "2023-10-12T14:01:23.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7MD6JRYHSY0KMDM587V1P2J",
+            "title": "Plan Transportation",
+            "tasks": [
+              {
+                "id": "01K7MD6JRYRHQGMP62C8WS0SSW",
+                "title": "Look up flights to Myanmar",
+                "completed": false,
+                "date": "2023-10-12T14:01:23.000Z"
+              },
+              {
+                "id": "01K7MD6JRYC2CC2F5533S0RQG6",
+                "title": "Research local transportation options",
+                "completed": false,
+                "date": "2023-10-12T14:01:23.000Z"
+              },
+              {
+                "id": "01K7MD6JRY131AVTNBXY3WME7S",
+                "title": "Arrange airport transfers",
+                "completed": false,
+                "date": "2023-10-12T14:01:23.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "mg@gmail.com",
+    "username": "Mg Mg",
+    "chatId": null,
+    "interest": "Guitar, English, Programming",
+    "id": "01K7NETRR85Y4JCZC63SHJHHE4",
+    "groups": [
+      {
+        "id": "01K7NFPTR9SKWCPCAH3MRCV01Y",
+        "group_title": "Becoming a Healthy Person",
+        "subTasks": [
+          {
+            "id": "01K7NFPTRGJ4QDPKED3QV85WSJ",
+            "title": "Exercise Regularly",
+            "tasks": [
+              {
+                "id": "01K7NFPTRHXRJ085WNYNFWFHBB",
+                "title": "Research different types of exercises",
+                "completed": false,
+                "date": "2023-10-11T00:00:00.000Z"
+              },
+              {
+                "id": "01K7NFPTRK92Y8T6A8Q7RBHEJE",
+                "title": "Create a weekly exercise schedule",
+                "completed": false,
+                "date": "2023-10-11T00:00:00.000Z"
+              },
+              {
+                "id": "01K7NFPTRK1391SASTQNFY1F81",
+                "title": "Join a local gym or online fitness class",
+                "completed": false,
+                "date": "2023-10-11T00:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7NFPTRMZ78K575K23RR7XNE",
+            "title": "Eat a Balanced Diet",
+            "tasks": [
+              {
+                "id": "01K7NFPTRN9FG6BYTMZ76D9RVC",
+                "title": "Plan meals using a balanced diet guide",
+                "completed": false,
+                "date": "2023-10-11T00:00:00.000Z"
+              },
+              {
+                "id": "01K7NFPTRN2HS9FTWM1209QW37",
+                "title": "Go grocery shopping for healthy foods",
+                "completed": false,
+                "date": "2023-10-11T00:00:00.000Z"
+              },
+              {
+                "id": "01K7NFPTRPR3KJK80HP56VKBPC",
+                "title": "Prepare home-cooked meals instead of eating out",
+                "completed": false,
+                "date": "2023-10-11T00:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7NFPTRQ4CMW52Q5AERG3BZ3",
+            "title": "Stay Hydrated",
+            "tasks": [
+              {
+                "id": "01K7NFPTRQRRKEHKB2CG3G5CJZ",
+                "title": "Buy a reusable water bottle",
+                "completed": false,
+                "date": "2023-10-11T00:00:00.000Z"
+              },
+              {
+                "id": "01K7NFPTRR3JN2RJGHBW5WJDFZ",
+                "title": "Set a daily water intake goal",
+                "completed": false,
+                "date": "2023-10-11T00:00:00.000Z"
+              },
+              {
+                "id": "01K7NFPTRSBT727QAWNT4VQNS4",
+                "title": "Track water intake daily",
+                "completed": false,
+                "date": "2023-10-11T00:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7NFPTRS88960A7650C41JFP",
+            "title": "Get Enough Sleep",
+            "tasks": [
+              {
+                "id": "01K7NFPTRT57E540EGRVPMKE6R",
+                "title": "Determine the ideal sleep duration needed",
+                "completed": false,
+                "date": "2023-10-11T00:00:00.000Z"
+              },
+              {
+                "id": "01K7NFPTRV0EVA5ZJHSJ096278",
+                "title": "Establish a consistent bedtime routine",
+                "completed": false,
+                "date": "2023-10-11T00:00:00.000Z"
+              },
+              {
+                "id": "01K7NFPTRVR9HT4AMNHTECD0Y0",
+                "title": "Create a relaxing sleep environment",
+                "completed": false,
+                "date": "2023-10-11T00:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7NFPTRWMN7PXTZSFKEMCHRF",
+            "title": "Manage Stress",
+            "tasks": [
+              {
+                "id": "01K7NFPTRWG896RACB1JT5ZXJQ",
+                "title": "Identify sources of stress",
+                "completed": false,
+                "date": "2023-10-11T00:00:00.000Z"
+              },
+              {
+                "id": "01K7NFPTRXE9ZSS16DY6G01CVW",
+                "title": "Learn stress management techniques",
+                "completed": false,
+                "date": "2023-10-11T00:00:00.000Z"
+              },
+              {
+                "id": "01K7NFPTRYQFDGA7TJC21VRR86",
+                "title": "Practice meditation or yoga",
+                "completed": false,
+                "date": "2023-10-11T00:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
