@@ -1,5 +1,6 @@
 import ollama from "ollama";
 import { prompt2 } from "./prompts.js";
+import { parseAIJSON } from "./util/helper.js";
 
 const GenerateTasks = async (topic, model) => {
   const response = await ollama.chat({
@@ -80,7 +81,7 @@ export const NormalResponseMistral = async (user, prompt, model) => {
     ],
   });
   const content = response.message.content;
-  return content;
+  return parseAIJSON(content);
 };
 
 export default GenerateTasks;

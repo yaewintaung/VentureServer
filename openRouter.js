@@ -1,6 +1,7 @@
 import OpenAI from "openai";
 import { prompt2 } from "./prompts.js";
 import dotenv from "dotenv";
+import { parseAIJSON } from "./util/helper.js";
 
 dotenv.config();
 
@@ -23,5 +24,5 @@ export async function GenerateOpenRouter(topic) {
       },
     ],
   });
-  return JSON.parse(completion.choices[0].message.content);
+  return parseAIJSON(completion.choices[0].message.content);
 }

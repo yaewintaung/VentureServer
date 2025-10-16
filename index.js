@@ -12,12 +12,19 @@ import { ulid } from "ulid";
 
 const userDataFile = "./data/userData.json";
 const bot_token = process.env.BOT_TOKEN;
-const url = "http://localhost:3000";
+const url = "https://ventureserver-3h0i.onrender.com";
 
 if (!fs.existsSync(userDataFile)) fs.writeFileSync(userDataFile, "[]");
 
 const app = express();
-const bot = new TelegramBot(bot_token, { polling: false });
+const bot = new TelegramBot(bot_token);
+const webhookPath = `/bot${bot_token}`;
+bot.setWebHook(`${url}${webhookPath}`);
+
+app.post(webhookPath, (req, res) => {
+  bot.processUpdate(req.body);
+  res.sendStatus(200);
+});
 
 app.use(cors());
 app.use(express.json());
