@@ -504,6 +504,164 @@
             ]
           }
         ]
+      },
+      {
+        "id": "01K7PQNP44SFVVC88VRAYTJ6JF",
+        "group_title": "Propose a Girl",
+        "accepted": true,
+        "subTasks": [
+          {
+            "id": "01K7PQRE7HR4YKH8KN7QMS6TMF",
+            "title": "Choose the perfect venue",
+            "tasks": [
+              {
+                "id": "01K7PQRE7J2TKGE6RHVWY403GN",
+                "title": "Research suitable locations",
+                "completed": false,
+                "date": "2025-10-16T00:00:00.000Z"
+              },
+              {
+                "id": "01K7PQRE7J9QWK4WQJ77Z25MR1",
+                "title": "Book the chosen location",
+                "completed": false,
+                "date": "2025-10-17T00:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7PQRE7JKCKP2E5EYVZGGJDQ",
+            "title": "Prepare a thoughtful speech",
+            "tasks": [
+              {
+                "id": "01K7PQRE7J2W6KMPV6J8AKJ4YZ",
+                "title": "Write the proposal script",
+                "completed": false,
+                "date": "2025-10-18T00:00:00.000Z"
+              },
+              {
+                "id": "01K7PQRE7JNTHGQQF2GZ54107S",
+                "title": "Rehearse the speech",
+                "completed": false,
+                "date": "2025-10-19T00:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7PQRE7JNG49G2TGC0KW2BH9",
+            "title": "Plan a surprise element",
+            "tasks": [
+              {
+                "id": "01K7PQRE7J1YQ1PQD5V3HRR19A",
+                "title": "Decide on the surprise details",
+                "completed": false,
+                "date": "2025-10-20T00:00:00.000Z"
+              },
+              {
+                "id": "01K7PQRE7JT77YKE3VMB5JA3BZ",
+                "title": "Organize the surprise setup",
+                "completed": false,
+                "date": "2025-10-21T00:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7PQRE7JXVDBHW58QQH8NP2E",
+            "title": "Arrange transportation and accommodation",
+            "tasks": [
+              {
+                "id": "01K7PQRE7JNBJT7HE3KRHE4J64",
+                "title": "Book transportation to the proposal location",
+                "completed": false,
+                "date": "2025-10-22T00:00:00.000Z"
+              },
+              {
+                "id": "01K7PQRE7J70HREKRGTPJYFJZR",
+                "title": "Arrange accommodation if necessary",
+                "completed": false,
+                "date": "2025-10-23T00:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "01K7PRDTK6F7H9408P4F2DSTF6",
+        "group_title": "Learning Path: Machine Learning",
+        "accepted": true,
+        "subTasks": [
+          {
+            "id": "01K7PRF6TBWZT0XVT1R68SXQWS",
+            "title": "Understand the basics of Machine Learning",
+            "tasks": [
+              {
+                "id": "01K7PRF6TBG1PS7N5DARK3W0EV",
+                "title": "What is Machine Learning?",
+                "completed": false,
+                "date": "2023-04-15T12:25:55.857Z"
+              },
+              {
+                "id": "01K7PRF6TBQM760BNSGX2C7G90",
+                "title": "Types of Machine Learning",
+                "completed": false,
+                "date": "2023-04-16T12:25:55.857Z"
+              },
+              {
+                "id": "01K7PRF6TBMFP5CW6WJ2R5JWGJ",
+                "title": "Supervised vs Unsupervised Learning",
+                "completed": false,
+                "date": "2023-04-17T12:25:55.857Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7PRF6TBJPD1ZV6CA8HAABXE",
+            "title": "Learn a Machine Learning library",
+            "tasks": [
+              {
+                "id": "01K7PRF6TC5RG35NNKDYK8C9NZ",
+                "title": "Introduction to Python",
+                "completed": false,
+                "date": "2023-04-18T12:25:55.857Z"
+              },
+              {
+                "id": "01K7PRF6TCYSF7KMX76A14KVEW",
+                "title": "Install Anaconda for data science",
+                "completed": false,
+                "date": "2023-04-19T12:25:55.857Z"
+              },
+              {
+                "id": "01K7PRF6TD184YM55D7XX7D03R",
+                "title": "Learn Scikit-learn library basics",
+                "completed": false,
+                "date": "2023-04-20T12:25:55.857Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7PRF6TDTKW0PRZK15053CC9",
+            "title": "Start working on a Machine Learning project",
+            "tasks": [
+              {
+                "id": "01K7PRF6TDGQ7W0VS4RBH1SCCF",
+                "title": "Choose a dataset for practice",
+                "completed": false,
+                "date": "2023-04-21T12:25:55.857Z"
+              },
+              {
+                "id": "01K7PRF6TDNY4B0FZHS6N499XQ",
+                "title": "Preprocess the dataset",
+                "completed": false,
+                "date": "2023-04-22T12:25:55.857Z"
+              },
+              {
+                "id": "01K7PRF6TDSC7X091GWEGKW4NT",
+                "title": "Implement a Machine Learning model",
+                "completed": false,
+                "date": "2023-04-23T12:25:55.857Z"
+              }
+            ]
+          }
+        ]
       }
     ]
   }

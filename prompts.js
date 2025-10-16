@@ -51,6 +51,7 @@ export interface Task {
 - Always return valid JSON only. No explanations, no markdown, no text outside the JSON.
 - completed = false.
 - date = today's date format in date iso string(example=> 2025-10-15T12:25:55.857Z).
+-(date key will start from this date${new Date().toISOString()} time will be random not the same always)
 - Each group should have multiple subTasks, and each subTask should have multiple small actionable tasks.
 - An only JSON object in your answer no extra words or explanation this is important
 `;

@@ -1,10 +1,12 @@
 import OpenAI from "openai";
 import { prompt2 } from "./prompts.js";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const openai = new OpenAI({
   baseURL: "https://openrouter.ai/api/v1",
-  apiKey:
-    "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",
+  apiKey: process.env.OPEN_ROUTER_KEY,
 });
 
 export async function GenerateOpenRouter(topic) {
