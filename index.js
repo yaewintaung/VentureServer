@@ -6,13 +6,14 @@ import TelegramBot from "node-telegram-bot-api";
 import cron from "node-cron";
 
 import fs from "fs";
-import { GenerateOpenRouter } from "./openRouter.js";
+import { GenerateOpenRouter, NormalResponseOpenRouter } from "./openRouter.js";
 import GenerateTasks, { NormalResponseMistral } from "./mistral.js";
 import { ulid } from "ulid";
 
 const userDataFile = "./data/userData.json";
 const bot_token = process.env.BOT_TOKEN;
 const url = process.env.WEB_URL;
+let modelNameForTelegram = "gpt-4o";
 
 if (!fs.existsSync(userDataFile)) fs.writeFileSync(userDataFile, "[]");
 
@@ -407,7 +408,7 @@ bot.on("message", async (msg) => {
     if (!user) {
       return bot.sendMessage(chatId, "user not found");
     }
-    const content = await NormalResponseMistral(user, text, "mistral");
+    const content = await NormalResponseOpenRouter(user, text, "mistral");
 
     bot.sendMessage(chatId, content);
   }

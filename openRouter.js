@@ -26,3 +26,30 @@ export async function GenerateOpenRouter(topic) {
   });
   return parseAIJSON(completion.choices[0].message.content);
 }
+
+export const NormalResponseOpenRouter = async (user, prompt, model) => {
+  const completion = await openai.chat.completions.create({
+    model: "openai/gpt-4o",
+    messages: [
+      {
+        role: "system",
+        content: `
+        this is all user information in this system -
+          user: ${formatUserTasksForAI(user)}
+
+          you have to answer by this user data to questions,
+          if user is undefined just say you are not authenticated
+        `,
+      },
+      {
+        role: "user",
+        content: `
+          ${prompt}
+        `,
+      },
+    ],
+  });
+
+  const content = completion.choices[0].message.content;
+  return content;
+};

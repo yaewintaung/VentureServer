@@ -81,7 +81,7 @@ export const NormalResponseMistral = async (user, prompt, model) => {
     ],
   });
   const content = response.message.content;
-  return parseAIJSON(content);
+  return content;
 };
 
 export default GenerateTasks;
