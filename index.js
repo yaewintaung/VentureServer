@@ -401,19 +401,23 @@ bot.on("message", async (msg) => {
       saveMemory(data);
     }
   } else {
-    bot.sendChatAction(chatId, "typing");
-    const data = loadMemory();
-    const user = data.find((u) => u.chatId == chatId);
-    if (!user) {
-      return bot.sendMessage(chatId, "user not found");
-    }
-    const content = await NormalResponseOpenRouter(
-      user,
-      text,
-      modelNameForTelegram
-    );
+    try {
+      bot.sendChatAction(chatId, "typing");
+      const data = loadMemory();
+      const user = data.find((u) => u.chatId == chatId);
+      if (!user) {
+        return bot.sendMessage(chatId, "user not found");
+      }
+      const content = await NormalResponseOpenRouter(
+        user,
+        text,
+        modelNameForTelegram
+      );
 
-    bot.sendMessage(chatId, content, { parse_mode: "Markdown" });
+      bot.sendMessage(chatId, content, { parse_mode: "Markdown" });
+    } catch (error) {
+      console.log(error);
+    }
   }
 });
 
