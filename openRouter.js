@@ -44,6 +44,7 @@ export const NormalResponseOpenRouter = async (user, prompt, model) => {
           user: ${formatUserTasksForAI(user)}
 
           you have to answer by this user data to questions,
+          
           When the user asks for tasks or reminders, reply in a beautiful Telegram message format using Markdown.
           Use emojis, bullet points, bold for titles, and italics for dates.
 
