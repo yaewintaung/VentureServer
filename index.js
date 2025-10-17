@@ -22,7 +22,18 @@ const webhookPath = `/bot${bot_token}`;
 bot.setWebHook(`${url}${webhookPath}`);
 
 app.post(webhookPath, (req, res) => {
-  bot.processUpdate(req.body);
+  if (!req.body) {
+    console.error("❌ Empty update received");
+    return res.sendStatus(400);
+  }
+
+  try {
+    bot.processUpdate(req.body);
+  } catch (err) {
+    console.error("Error processing update:", err);
+  }
+
+  res.sendStatus(200);
   res.sendStatus(200);
 });
 
