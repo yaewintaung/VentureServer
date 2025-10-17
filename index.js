@@ -21,22 +21,6 @@ const bot = new TelegramBot(bot_token);
 const webhookPath = `/bot${bot_token}`;
 bot.setWebHook(`${url}${webhookPath}`);
 
-app.post(webhookPath, (req, res) => {
-  if (!req.body) {
-    console.error("❌ Empty update received");
-    return res.sendStatus(400);
-  }
-
-  try {
-    bot.processUpdate(req.body);
-  } catch (err) {
-    console.error("Error processing update:", err);
-  }
-
-  res.sendStatus(200);
-  res.sendStatus(200);
-});
-
 app.use(cors());
 app.use(express.json());
 
@@ -60,6 +44,22 @@ function saveMemory(data) {
     console.log(err);
   }
 }
+
+app.post(webhookPath, (req, res) => {
+  if (!req.body) {
+    console.error("❌ Empty update received");
+    return res.sendStatus(400);
+  }
+
+  try {
+    bot.processUpdate(req.body);
+  } catch (err) {
+    console.error("Error processing update:", err);
+  }
+
+  res.sendStatus(200);
+  res.sendStatus(200);
+});
 
 app.post("/generate-tasks", async (req, res) => {
   const { topic, model } = req.body;
