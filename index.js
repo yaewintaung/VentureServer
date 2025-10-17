@@ -18,9 +18,6 @@ let modelNameForTelegram = "mistralai/mistral-small-3.2-24b-instruct:free";
 if (!fs.existsSync(userDataFile)) fs.writeFileSync(userDataFile, "[]");
 
 const app = express();
-const bot = new TelegramBot(bot_token);
-const webhookPath = `/bot${bot_token}`;
-bot.setWebHook(`${url}${webhookPath}`);
 
 app.use(cors());
 app.use(express.json());
@@ -28,6 +25,9 @@ app.use(express.json());
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 // app.get("/home", express.static(path.join(__dirname, "public")));
+const bot = new TelegramBot(bot_token);
+const webhookPath = `/bot${bot_token}`;
+bot.setWebHook(`${url}${webhookPath}`);
 
 function loadMemory() {
   if (!fs.existsSync(userDataFile)) return [];
@@ -366,11 +366,21 @@ bot.onText(/\/start/, (msg) => {
   userStates[chatId] = { step: "awaiting_user_email" };
 });
 
+bot.onText(/\/logout/, (msg) => {
+  const chatId = msg.chat.id;
+  const data = loadMemory();
+  const user = data.find((u) => u.chatId == chatId);
+  user.chatId = null;
+  saveMemory(data);
+  bot.sendMessage(chatId, "👋 Logged out");
+});
+
 bot.on("message", async (msg) => {
   const chatId = msg.chat.id;
   const text = msg.text;
 
   if (text.startsWith("/start")) return;
+  if (text.startsWith("/logout")) return;
   const state = userStates[chatId];
 
   if (state?.step === "awaiting_user_email") {
