@@ -403,7 +403,7 @@ bot.on("message", async (msg) => {
       modelNameForTelegram
     );
 
-    bot.sendMessage(chatId, content);
+    bot.sendMessage(chatId, content, { parse_mode: "Markdown" });
   }
 });
 
