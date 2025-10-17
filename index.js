@@ -59,34 +59,17 @@ app.post(webhookPath, (req, res) => {
   }
 
   res.sendStatus(200);
-  res.sendStatus(200);
 });
 
 app.post("/generate-tasks", async (req, res) => {
-  const { topic, model } = req.body;
+  const { topic, model, isLocal } = req.body;
+  let tasks;
 
   try {
-    let tasks;
-    switch (model) {
-      case "mistral":
-        console.log("mistral");
-        tasks = await GenerateTasks(topic, "mistral");
-        break;
-      case "gemma3:12b":
-        console.log("gemma3:12b");
-        tasks = await GenerateTasks(topic, "gemma3:12b");
-        break;
-      case "gpt-4o":
-        console.log("gpt-4o");
-        tasks = await GenerateOpenRouter(topic);
-        break;
-      case "deepseek-r1:8b":
-        console.log("deepseek-r1:8b");
-        tasks = await GenerateTasks(topic, "deepseek-r1:8b");
-        break;
-
-      default:
-        break;
+    if (!isLocal) {
+      tasks = await GenerateOpenRouter(topic, model);
+    } else {
+      tasks = await GenerateTasks(topic, model);
     }
 
     res.json({ topic, tasks });
