@@ -30,7 +30,7 @@ export async function GenerateOpenRouter(topic) {
 
 export const NormalResponseOpenRouter = async (user, prompt, model) => {
   const completion = await openai.chat.completions.create({
-    model: "openai/gpt-4o",
+    model: model,
     messages: [
       {
         role: "system",

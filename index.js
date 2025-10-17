@@ -13,7 +13,7 @@ import { ulid } from "ulid";
 const userDataFile = "./data/userData.json";
 const bot_token = process.env.BOT_TOKEN;
 const url = process.env.WEB_URL;
-let modelNameForTelegram = "gpt-4o";
+let modelNameForTelegram = "mistralai/mistral-small-3.2-24b-instruct:free";
 
 if (!fs.existsSync(userDataFile)) fs.writeFileSync(userDataFile, "[]");
 
@@ -334,6 +334,12 @@ app.get("/groups/:user_id/:group_id", (req, res) => {
   res.status(200).json({ group });
 });
 
+app.post("/update/telegram-model", async (req, res) => {
+  const { model_name } = req.body;
+  modelNameForTelegram = model_name;
+  res.status(200).json({ message: "updated to " + model_name });
+});
+
 const now = new Date();
 
 const newTime = new Date(now);
@@ -408,7 +414,11 @@ bot.on("message", async (msg) => {
     if (!user) {
       return bot.sendMessage(chatId, "user not found");
     }
-    const content = await NormalResponseOpenRouter(user, text, "mistral");
+    const content = await NormalResponseOpenRouter(
+      user,
+      text,
+      modelNameForTelegram
+    );
 
     bot.sendMessage(chatId, content);
   }
