@@ -2,6 +2,7 @@ import OpenAI from "openai";
 import { prompt2 } from "./prompts.js";
 import dotenv from "dotenv";
 import { parseAIJSON } from "./util/helper.js";
+import { formatUserTasksForAI } from "./mistral.js";
 
 dotenv.config();
 

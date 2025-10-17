@@ -25,7 +25,7 @@ const GenerateTasks = async (topic, model) => {
   return JSON.parse(content);
 };
 
-function formatUserTasksForAI(user) {
+export function formatUserTasksForAI(user) {
   if (!user || !Array.isArray(user.groups)) return "No groups found.";
 
   let output = `User: ${user.username}\nEmail: ${user.email}\n\nTask Overview:\n`;
