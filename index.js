@@ -12,7 +12,7 @@ import { ulid } from "ulid";
 
 const userDataFile = "./data/userData.json";
 const bot_token = process.env.BOT_TOKEN;
-const url = "https://ventureserver-3h0i.onrender.com";
+const url = process.env.WEB_URL;
 
 if (!fs.existsSync(userDataFile)) fs.writeFileSync(userDataFile, "[]");
 
@@ -351,6 +351,11 @@ const done_task = () => {
 
 const userStates = {};
 const users = {};
+
+app.post(`/bot${bot_token}`, (req, res) => {
+  bot.processUpdate(req.body);
+  res.sendStatus(200);
+});
 
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
