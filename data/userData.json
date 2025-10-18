@@ -487,85 +487,6 @@
         ]
       },
       {
-        "id": "01K7RKVC1FPJYZJX2Z6SV6FYVN",
-        "group_title": "📚 Learn Time Management for Coding & Math 📚",
-        "accepted": false,
-        "subTasks": [
-          {
-            "id": "01K7RKVC1G88341SSQC5JAAJ44",
-            "title": "Plan a Schedule for Coding",
-            "tasks": [
-              {
-                "id": "01K7RKVC1HTX7TPSMFYYF5K756",
-                "title": "Allocate specific hours daily for coding practice",
-                "completed": false,
-                "date": "2025-10-17T08:14:40.423Z"
-              },
-              {
-                "id": "01K7RKVC1H4TSJ204FC458M613",
-                "title": "Set reminders for coding sessions",
-                "completed": false,
-                "date": "2025-10-17T08:14:40.423Z"
-              },
-              {
-                "id": "01K7RKVC1HSK1CXHK9Q9PFVQFC",
-                "title": "Choose a consistent time to practice coding each day",
-                "completed": false,
-                "date": "2025-10-17T08:14:40.423Z"
-              }
-            ]
-          },
-          {
-            "id": "01K7RKVC1HK5PNNQR1B1390QTH",
-            "title": "Plan a Schedule for Math",
-            "tasks": [
-              {
-                "id": "01K7RKVC1HXA96E0BA0Z8Y27K9",
-                "title": "Allocate specific hours daily for math practice",
-                "completed": false,
-                "date": "2025-10-17T08:14:40.423Z"
-              },
-              {
-                "id": "01K7RKVC1HAPKG051PS9J204HC",
-                "title": "Set reminders for math sessions",
-                "completed": false,
-                "date": "2025-10-17T08:14:40.423Z"
-              },
-              {
-                "id": "01K7RKVC1HPH9WD8X0MX7QB7PM",
-                "title": "Choose a consistent time to practice math each day",
-                "completed": false,
-                "date": "2025-10-17T08:14:40.423Z"
-              }
-            ]
-          },
-          {
-            "id": "01K7RKVC1H94TN2475ED45GP9C",
-            "title": "Practice Time Management Techniques",
-            "tasks": [
-              {
-                "id": "01K7RKVC1HWS32ACQQHRQD4ZSV",
-                "title": "Research and learn about time management techniques",
-                "completed": false,
-                "date": "2025-10-17T08:14:40.423Z"
-              },
-              {
-                "id": "01K7RKVC1H0KNAMY9ZMBA009Q6",
-                "title": "Try a new time management technique each week",
-                "completed": false,
-                "date": "2025-10-17T08:14:40.423Z"
-              },
-              {
-                "id": "01K7RKVC1H8SXT1MBKA7FYYP1V",
-                "title": "Evaluate the effectiveness of each technique",
-                "completed": false,
-                "date": "2025-10-17T08:14:40.423Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "01K7RPGV1D04C9PSWTJJQTFSK7",
         "group_title": "🥋 Mastering Karate Basics 🥋",
         "accepted": true,
@@ -645,79 +566,175 @@
         ]
       },
       {
-        "id": "01K7TVWTZTVNZVTGAAVHZASJ0B",
-        "group_title": ":moneybag: Business Fundamentals",
-        "accepted": false,
+        "id": "01K7W1EXE6Y1XTA7NK362RS7FK",
+        "group_title": "🚀 Unity Platform Project Sprint 🎮",
+        "accepted": true,
         "subTasks": [
           {
-            "id": "01K7TVWTZYTH896X1KYSV4J059",
-            "title": "Understanding the Basics",
+            "id": "01K7W1EXE6M9ZSMYSQ1C6KGYP7",
+            "title": "Project Setup and Planning",
             "tasks": [
               {
-                "id": "01K7TVWTZY99FRHVK7B7ZRN9XX",
-                "title": "Define key business terms",
+                "id": "01K7W1EXE7Y9AACKP9JM8TP3AD",
+                "title": "Set up Unity project and version control",
                 "completed": false,
-                "date": "2025-10-18T05:12:26.180Z"
+                "date": "2025-10-18T13:23:42.855Z"
               },
               {
-                "id": "01K7TVWTZZFYANGVHC7KZ02ZC7",
-                "title": "Learn about types of businesses",
+                "id": "01K7W1EXE7Y6YEKPA4SGNAC9KK",
+                "title": "Create project documentation and structure",
                 "completed": false,
-                "date": "2025-10-19T06:12:26.180Z"
+                "date": "2025-10-18T14:30:15.234Z"
               },
               {
-                "id": "01K7TVWTZZAHKDGGKD9NAJHX7J",
-                "title": "Study the business life cycle",
+                "id": "01K7W1EXE74P2P8P1CA38VM299",
+                "title": "Define sprint goals and milestones",
                 "completed": false,
-                "date": "2025-10-20T07:12:26.180Z"
+                "date": "2025-10-18T15:45:30.678Z"
               }
             ]
           },
           {
-            "id": "01K7TVWTZZA1BKMCQVF8VB8FBP",
-            "title": "Exploring Business Models",
+            "id": "01K7W1EXE7926AS3EHME3BY11E",
+            "title": "Core Game Mechanics",
             "tasks": [
               {
-                "id": "01K7TVWTZZ8BB6CVQVZ8ZH2NT7",
-                "title": "Analyze popular business models",
+                "id": "01K7W1EXE7A94XDEQY8FZC4FSY",
+                "title": "Implement basic player movement",
                 "completed": false,
-                "date": "2025-10-21T08:12:26.180Z"
+                "date": "2025-10-19T09:10:20.345Z"
               },
               {
-                "id": "01K7TVWTZZYN4JDFA48FSQW101",
-                "title": "Learn about e-commerce and digital business models",
+                "id": "01K7W1EXE7JB1ZNZKPCSDE1MSF",
+                "title": "Design and implement core game loop",
                 "completed": false,
-                "date": "2025-10-22T09:12:26.180Z"
+                "date": "2025-10-19T11:20:45.678Z"
               },
               {
-                "id": "01K7TVWTZZQGY15BB55BSF1D6Y",
-                "title": "Understand service and subscription models",
+                "id": "01K7W1EXE719QVTCKGWPFEWNX7",
+                "title": "Create and test basic enemy AI",
                 "completed": false,
-                "date": "2025-10-23T10:12:26.180Z"
+                "date": "2025-10-19T14:30:15.234Z"
               }
             ]
           },
           {
-            "id": "01K7TVWV00PPMB69AQMY6B7JER",
-            "title": "Financial Management Basics",
+            "id": "01K7W1EXE8DSM9JFET1Q8MA8VN",
+            "title": "Art and Assets",
             "tasks": [
               {
-                "id": "01K7TVWV004EQW855NH57F561E",
-                "title": "Learn about financial statements",
+                "id": "01K7W1EXE8V7TZ0TGRQ5ARMTR0",
+                "title": "Design and import character models",
                 "completed": false,
-                "date": "2025-10-24T11:12:26.180Z"
+                "date": "2025-10-20T10:15:30.456Z"
               },
               {
-                "id": "01K7TVWV0045ZYMWDVFFN0YZ08",
-                "title": "Understand accounting principles",
+                "id": "01K7W1EXE8NXH4DP6FJ0QTR0SH",
+                "title": "Create and implement environment assets",
                 "completed": false,
-                "date": "2025-10-25T12:12:26.180Z"
+                "date": "2025-10-20T12:25:40.789Z"
               },
               {
-                "id": "01K7TVWV00FYJ0JE63BTAJJ689",
-                "title": "Learn about budgeting and forecasting",
+                "id": "01K7W1EXE89Q8ZFV43H98YGQGA",
+                "title": "Design and add UI elements",
                 "completed": false,
-                "date": "2025-10-26T13:12:26.180Z"
+                "date": "2025-10-20T15:35:50.123Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7W1EXE8QG2FWAGY1H5QMWD8",
+            "title": "Level Design",
+            "tasks": [
+              {
+                "id": "01K7W1EXE8ZNFJ015XS2K7PVAM",
+                "title": "Design and build first level layout",
+                "completed": false,
+                "date": "2025-10-21T09:45:20.345Z"
+              },
+              {
+                "id": "01K7W1EXE8C84M21NMXTSR16T6",
+                "title": "Add interactive elements to the level",
+                "completed": false,
+                "date": "2025-10-21T11:55:30.678Z"
+              },
+              {
+                "id": "01K7W1EXE9XFAQ26B5XJNDS2PK",
+                "title": "Test and optimize level performance",
+                "completed": false,
+                "date": "2025-10-21T14:10:45.901Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7W1EXE915P68YTK4AGBQBAG",
+            "title": "Sound and Effects",
+            "tasks": [
+              {
+                "id": "01K7W1EXE9QAJ608NAJJV58HF9",
+                "title": "Integrate background music",
+                "completed": false,
+                "date": "2025-10-22T10:20:15.234Z"
+              },
+              {
+                "id": "01K7W1EXE96C8AMDXG23CZKFK7",
+                "title": "Add sound effects for actions",
+                "completed": false,
+                "date": "2025-10-22T12:30:40.567Z"
+              },
+              {
+                "id": "01K7W1EXE9941K4MW8PBM5710R",
+                "title": "Test and balance audio levels",
+                "completed": false,
+                "date": "2025-10-22T15:40:55.890Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7W1EXE9F4R04825B30PVPN9",
+            "title": "Testing and Debugging",
+            "tasks": [
+              {
+                "id": "01K7W1EXEAQQG92QHCD62WGAHG",
+                "title": "Conduct thorough playtesting",
+                "completed": false,
+                "date": "2025-10-23T09:30:20.345Z"
+              },
+              {
+                "id": "01K7W1EXEA4KQG1DMXKNGG1EAG",
+                "title": "Fix identified bugs and issues",
+                "completed": false,
+                "date": "2025-10-23T11:40:35.678Z"
+              },
+              {
+                "id": "01K7W1EXEAB9VGX3CH1PXYZCN2",
+                "title": "Optimize game performance",
+                "completed": false,
+                "date": "2025-10-23T14:50:50.123Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7W1EXEAPN5B1TM064KE8XGF",
+            "title": "Final Touches and Deployment",
+            "tasks": [
+              {
+                "id": "01K7W1EXEA053XGC0E6PRN38RJ",
+                "title": "Add final polish and refinements",
+                "completed": false,
+                "date": "2025-10-24T10:10:25.345Z"
+              },
+              {
+                "id": "01K7W1EXEAXCR8ND1CDCA203B7",
+                "title": "Prepare build for deployment",
+                "completed": false,
+                "date": "2025-10-24T12:20:40.678Z"
+              },
+              {
+                "id": "01K7W1EXEB9J4D24PC0P3X9XMC",
+                "title": "Deploy and share the game",
+                "completed": false,
+                "date": "2025-10-24T15:30:55.901Z"
               }
             ]
           }
