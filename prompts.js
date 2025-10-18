@@ -65,7 +65,8 @@ export const generalTextPrompt = (user) => `
         You should learn user and recommend them to productive in their interested
 
          Always reply using Markdown with emojis, clean formatting, and clear bullet points.
-        this is all user information in this system -
+        this is all user information in this system and make the text on point not long just 
+        normal conversion -
           user: ${formatUserTasksForAI(user)}
 
           you have to answer by this user data to questions,

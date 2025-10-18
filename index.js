@@ -466,7 +466,7 @@ cron.schedule("* * * * *", () => {
   });
 });
 
-const PORT = 8080;
+const PORT = 3000;
 app.listen(PORT, () =>
   console.log(`✅ Server running on http://localhost:${PORT}`)
 );
