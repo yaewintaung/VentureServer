@@ -62,14 +62,17 @@ app.post(webhookPath, (req, res) => {
 });
 
 app.post("/generate-tasks", async (req, res) => {
-  const { topic, model, isLocal } = req.body;
+  const { topic, model, isOnline } = req.body;
+  console.log(model);
+  console.log(isOnline);
+
   let tasks;
 
   try {
-    if (!isLocal) {
-      tasks = await GenerateOpenRouter(topic, model);
-    } else {
+    if (!isOnline) {
       tasks = await GenerateTasks(topic, model);
+    } else {
+      tasks = await GenerateOpenRouter(topic, model);
     }
 
     res.json({ topic, tasks });
@@ -406,8 +409,9 @@ bot.on("message", async (msg) => {
       const data = loadMemory();
       const user = data.find((u) => u.chatId == chatId);
       if (!user) {
-        return bot.sendMessage(chatId, "user not found");
+        return bot.sendMessage(chatId, "user not found or authenticated");
       }
+
       const content = await NormalResponseOpenRouter(
         user,
         text,

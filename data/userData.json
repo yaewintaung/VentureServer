@@ -247,6 +247,7 @@
       {
         "id": "01K7MD6JRW73WG9RPSFXDSSWZN",
         "group_title": "Plan a Vacation in Myanmar",
+        "accepted": true,
         "subTasks": [
           {
             "id": "01K7MD6JRX3ZBNZ95R9NQP41B3",
@@ -365,6 +366,358 @@
                 "title": "Arrange airport transfers",
                 "completed": false,
                 "date": "2023-10-12T14:01:23.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "01K7RFK4N6V87EYB54KNDVFDMQ",
+        "group_title": "How to do Homework",
+        "accepted": true,
+        "subTasks": [
+          {
+            "id": "01K7RFK4N74GEHCRC9HE7GSE82",
+            "title": "Understand the assignment",
+            "tasks": [
+              {
+                "id": "01K7RFK4N73NS6C7BKHC4FP7M1",
+                "title": "Read the assignment description",
+                "completed": false,
+                "date": "2025-10-17T06:53:00.000Z"
+              },
+              {
+                "id": "01K7RFK4N8ACQ4BQN2H2ZMB5BZ",
+                "title": "Ask for clarification if needed",
+                "completed": false,
+                "date": "2025-10-17T06:53:15.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7RFK4N839MCJ9B1792PTZTF",
+            "title": "Gather necessary resources",
+            "tasks": [
+              {
+                "id": "01K7RFK4N81N38WD2M8BSYFRXE",
+                "title": "Find required textbooks or online resources",
+                "completed": false,
+                "date": "2025-10-17T06:54:30.000Z"
+              },
+              {
+                "id": "01K7RFK4N86MZF2HB826VNK7XR",
+                "title": "Organize materials in a study area",
+                "completed": false,
+                "date": "2025-10-17T06:55:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7RFK4N8GNWCYQGTAS7HNHJE",
+            "title": "Plan your approach",
+            "tasks": [
+              {
+                "id": "01K7RFK4N82CWGV7E8NJND562Z",
+                "title": "Create a study schedule",
+                "completed": false,
+                "date": "2025-10-17T06:56:30.000Z"
+              },
+              {
+                "id": "01K7RFK4N83MHC6FDKZRN0GCQA",
+                "title": "Break down the assignment into manageable parts",
+                "completed": false,
+                "date": "2025-10-17T06:57:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7RFK4N87YXF20YTW3CK4FE2",
+            "title": "Start working on the assignment",
+            "tasks": [
+              {
+                "id": "01K7RFK4N8N8KP4FT9N6D8FBXW",
+                "title": "Begin with the easiest or most understood parts",
+                "completed": false,
+                "date": "2025-10-17T06:58:30.000Z"
+              },
+              {
+                "id": "01K7RFK4N8BZYEXX25ZMH9FH1V",
+                "title": "Take breaks as needed to avoid burnout",
+                "completed": false,
+                "date": "2025-10-17T06:59:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7RFK4N8733C31MQA5C3115B",
+            "title": "Review and revise your work",
+            "tasks": [
+              {
+                "id": "01K7RFK4N8M4J3S8XP3XMVDXBS",
+                "title": "Proofread for errors",
+                "completed": false,
+                "date": "2025-10-17T07:00:30.000Z"
+              },
+              {
+                "id": "01K7RFK4N8K29CY43QNHG0CTEG",
+                "title": "Ask a peer or teacher to review your work",
+                "completed": false,
+                "date": "2025-10-17T07:01:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7RFK4N85P088J7T6RY9SATD",
+            "title": "Submit the assignment",
+            "tasks": [
+              {
+                "id": "01K7RFK4N94KATPYKWM07CS39C",
+                "title": "Meet submission deadline",
+                "completed": false,
+                "date": "2025-10-17T07:02:30.000Z"
+              },
+              {
+                "id": "01K7RFK4N9RAPDFE6J952D5MRJ",
+                "title": "Organize your work for submission",
+                "completed": false,
+                "date": "2025-10-17T07:03:00.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "01K7RKVC1FPJYZJX2Z6SV6FYVN",
+        "group_title": "📚 Learn Time Management for Coding & Math 📚",
+        "accepted": false,
+        "subTasks": [
+          {
+            "id": "01K7RKVC1G88341SSQC5JAAJ44",
+            "title": "Plan a Schedule for Coding",
+            "tasks": [
+              {
+                "id": "01K7RKVC1HTX7TPSMFYYF5K756",
+                "title": "Allocate specific hours daily for coding practice",
+                "completed": false,
+                "date": "2025-10-17T08:14:40.423Z"
+              },
+              {
+                "id": "01K7RKVC1H4TSJ204FC458M613",
+                "title": "Set reminders for coding sessions",
+                "completed": false,
+                "date": "2025-10-17T08:14:40.423Z"
+              },
+              {
+                "id": "01K7RKVC1HSK1CXHK9Q9PFVQFC",
+                "title": "Choose a consistent time to practice coding each day",
+                "completed": false,
+                "date": "2025-10-17T08:14:40.423Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7RKVC1HK5PNNQR1B1390QTH",
+            "title": "Plan a Schedule for Math",
+            "tasks": [
+              {
+                "id": "01K7RKVC1HXA96E0BA0Z8Y27K9",
+                "title": "Allocate specific hours daily for math practice",
+                "completed": false,
+                "date": "2025-10-17T08:14:40.423Z"
+              },
+              {
+                "id": "01K7RKVC1HAPKG051PS9J204HC",
+                "title": "Set reminders for math sessions",
+                "completed": false,
+                "date": "2025-10-17T08:14:40.423Z"
+              },
+              {
+                "id": "01K7RKVC1HPH9WD8X0MX7QB7PM",
+                "title": "Choose a consistent time to practice math each day",
+                "completed": false,
+                "date": "2025-10-17T08:14:40.423Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7RKVC1H94TN2475ED45GP9C",
+            "title": "Practice Time Management Techniques",
+            "tasks": [
+              {
+                "id": "01K7RKVC1HWS32ACQQHRQD4ZSV",
+                "title": "Research and learn about time management techniques",
+                "completed": false,
+                "date": "2025-10-17T08:14:40.423Z"
+              },
+              {
+                "id": "01K7RKVC1H0KNAMY9ZMBA009Q6",
+                "title": "Try a new time management technique each week",
+                "completed": false,
+                "date": "2025-10-17T08:14:40.423Z"
+              },
+              {
+                "id": "01K7RKVC1H8SXT1MBKA7FYYP1V",
+                "title": "Evaluate the effectiveness of each technique",
+                "completed": false,
+                "date": "2025-10-17T08:14:40.423Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "01K7RPGV1D04C9PSWTJJQTFSK7",
+        "group_title": "🥋 Mastering Karate Basics 🥋",
+        "accepted": true,
+        "subTasks": [
+          {
+            "id": "01K7RPJ1512F21R5RHST4Q35G0",
+            "title": "Understand the basics",
+            "tasks": [
+              {
+                "id": "01K7RPJ151CBKQQCXTXXW2W3F3",
+                "title": "Learn basic stances and movements",
+                "completed": false,
+                "date": "2025-10-17T13:45:26.987Z"
+              },
+              {
+                "id": "01K7RPJ15139PPN6347VPDPWD6",
+                "title": "Study the fundamental punches",
+                "completed": false,
+                "date": "2025-10-18T10:30:17.890Z"
+              },
+              {
+                "id": "01K7RPJ151X7ZHS9F7PKSNT0SP",
+                "title": "Practice basic blocking techniques",
+                "completed": false,
+                "date": "2025-10-19T14:00:38.678Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7RPJ151PJ3A611H82CM3ZT8",
+            "title": "Master kicks",
+            "tasks": [
+              {
+                "id": "01K7RPJ1510JF52NJ0Y0P8JA78",
+                "title": "Learn front kick techniques",
+                "completed": false,
+                "date": "2025-10-20T16:15:49.567Z"
+              },
+              {
+                "id": "01K7RPJ152DAPHCA38P8MB3TK5",
+                "title": "Practice round kicks",
+                "completed": false,
+                "date": "2025-10-21T08:30:22.345Z"
+              },
+              {
+                "id": "01K7RPJ15200PNZ9HYXCBKATHC",
+                "title": "Study high kick variations",
+                "completed": false,
+                "date": "2025-10-22T12:00:56.890Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7RPJ15213TJ79KKRX5THDWZ",
+            "title": "Learn self-defense techniques",
+            "tasks": [
+              {
+                "id": "01K7RPJ152TDVV2815S7WCRWFY",
+                "title": "Study grappling and throws",
+                "completed": false,
+                "date": "2025-10-23T14:30:19.765Z"
+              },
+              {
+                "id": "01K7RPJ152NC74E3YRD8Y0KB26",
+                "title": "Practice escape techniques",
+                "completed": false,
+                "date": "2025-10-24T10:00:48.653Z"
+              },
+              {
+                "id": "01K7RPJ152YFR0HTSCF1KQ568K",
+                "title": "Learn striking defense methods",
+                "completed": false,
+                "date": "2025-10-25T16:15:23.976Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "01K7TVWTZTVNZVTGAAVHZASJ0B",
+        "group_title": ":moneybag: Business Fundamentals",
+        "accepted": false,
+        "subTasks": [
+          {
+            "id": "01K7TVWTZYTH896X1KYSV4J059",
+            "title": "Understanding the Basics",
+            "tasks": [
+              {
+                "id": "01K7TVWTZY99FRHVK7B7ZRN9XX",
+                "title": "Define key business terms",
+                "completed": false,
+                "date": "2025-10-18T05:12:26.180Z"
+              },
+              {
+                "id": "01K7TVWTZZFYANGVHC7KZ02ZC7",
+                "title": "Learn about types of businesses",
+                "completed": false,
+                "date": "2025-10-19T06:12:26.180Z"
+              },
+              {
+                "id": "01K7TVWTZZAHKDGGKD9NAJHX7J",
+                "title": "Study the business life cycle",
+                "completed": false,
+                "date": "2025-10-20T07:12:26.180Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7TVWTZZA1BKMCQVF8VB8FBP",
+            "title": "Exploring Business Models",
+            "tasks": [
+              {
+                "id": "01K7TVWTZZ8BB6CVQVZ8ZH2NT7",
+                "title": "Analyze popular business models",
+                "completed": false,
+                "date": "2025-10-21T08:12:26.180Z"
+              },
+              {
+                "id": "01K7TVWTZZYN4JDFA48FSQW101",
+                "title": "Learn about e-commerce and digital business models",
+                "completed": false,
+                "date": "2025-10-22T09:12:26.180Z"
+              },
+              {
+                "id": "01K7TVWTZZQGY15BB55BSF1D6Y",
+                "title": "Understand service and subscription models",
+                "completed": false,
+                "date": "2025-10-23T10:12:26.180Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7TVWV00PPMB69AQMY6B7JER",
+            "title": "Financial Management Basics",
+            "tasks": [
+              {
+                "id": "01K7TVWV004EQW855NH57F561E",
+                "title": "Learn about financial statements",
+                "completed": false,
+                "date": "2025-10-24T11:12:26.180Z"
+              },
+              {
+                "id": "01K7TVWV0045ZYMWDVFFN0YZ08",
+                "title": "Understand accounting principles",
+                "completed": false,
+                "date": "2025-10-25T12:12:26.180Z"
+              },
+              {
+                "id": "01K7TVWV00FYJ0JE63BTAJJ689",
+                "title": "Learn about budgeting and forecasting",
+                "completed": false,
+                "date": "2025-10-26T13:12:26.180Z"
               }
             ]
           }
