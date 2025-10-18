@@ -506,5 +506,116 @@
         ]
       }
     ]
+  },
+  {
+    "email": "khant@gmail.com",
+    "username": "Khant",
+    "chatId": null,
+    "interest": "Cherry, AI, Machine Learning, Python",
+    "id": "01K7NJ27JNTW9FZYMPA8WXJ3P0",
+    "groups": [
+      {
+        "id": "01K7NJ3TFCKA5RQYY4EP4S45YF",
+        "group_title": "Prepare to Propose My Crush",
+        "subTasks": [
+          {
+            "id": "01K7NJ3TFC52ASX0DDX7C77KZS",
+            "title": "Build Confidence",
+            "tasks": [
+              {
+                "id": "01K7NJ3TFC71RG1ZQ61J040A99",
+                "title": "Talk to a friend about your plan",
+                "completed": false,
+                "date": "2023-11-29T14:24:10.848Z"
+              },
+              {
+                "id": "01K7NJ3TFCR41R6TBJPT192VAQ",
+                "title": "Practice what you want to say",
+                "completed": false,
+                "date": "2023-11-29T14:24:10.848Z"
+              },
+              {
+                "id": "01K7NJ3TFCMZR5BQP1ZRHBDWZK",
+                "title": "Read articles on overcoming anxiety",
+                "completed": false,
+                "date": "2023-11-29T14:24:10.848Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7NJ3TFCJ9FCT2GX356CSER7",
+            "title": "Plan the Proposal",
+            "tasks": [
+              {
+                "id": "01K7NJ3TFCW4ZV1840F9CFGVAD",
+                "title": "Choose location for proposal",
+                "completed": false,
+                "date": "2023-11-29T14:24:10.848Z"
+              },
+              {
+                "id": "01K7NJ3TFDS5PJST497JRGKM5H",
+                "title": "Decide on a date and time",
+                "completed": false,
+                "date": "2023-11-29T14:24:10.848Z"
+              },
+              {
+                "id": "01K7NJ3TFDKN3SBJSYFZB7S0YQ",
+                "title": "Think of meaningful words to say",
+                "completed": false,
+                "date": "2023-11-29T14:24:10.848Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7NJ3TFDW3NRVXQ982ZA2BCC",
+            "title": "Gather Necessary Items",
+            "tasks": [
+              {
+                "id": "01K7NJ3TFDTY8WP01YG6GK24J1",
+                "title": "Buy or arrange flowers",
+                "completed": false,
+                "date": "2023-11-29T14:24:10.848Z"
+              },
+              {
+                "id": "01K7NJ3TFD0ZMP3P7EXHWJNES1",
+                "title": "Get a small gift or token of affection",
+                "completed": false,
+                "date": "2023-11-29T14:24:10.848Z"
+              },
+              {
+                "id": "01K7NJ3TFDTB5AHS9AMN4N6JRD",
+                "title": "Prepare a card or letter",
+                "completed": false,
+                "date": "2023-11-29T14:24:10.848Z"
+              }
+            ]
+          },
+          {
+            "id": "01K7NJ3TFDCGYD51MXT13XEYXS",
+            "title": "Mental and Emotional Preparation",
+            "tasks": [
+              {
+                "id": "01K7NJ3TFDVPPFDX3KNPHRT7QT",
+                "title": "Imagine different outcomes and how to react",
+                "completed": false,
+                "date": "2023-11-29T14:24:10.848Z"
+              },
+              {
+                "id": "01K7NJ3TFDXTRDTS6F33JWKSA6",
+                "title": "Reflect on why you want to propose",
+                "completed": false,
+                "date": "2023-11-29T14:24:10.848Z"
+              },
+              {
+                "id": "01K7NJ3TFDPB62W0WGWYEPS9MC",
+                "title": "Take deep breaths and calm nerves",
+                "completed": false,
+                "date": "2023-11-29T14:24:10.848Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
