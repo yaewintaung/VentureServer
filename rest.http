@@ -34,3 +34,10 @@ GET http://localhost:8080/groups/01K7KGV79HHKTCWTP9YWXFEX1Y HTTP/1.1
 ###
 GET http://localhost:8080/groups/01K7KGV79HHKTCWTP9YWXFEX1Y/01K7KH4XA3DMAV9WAW6QQKQ306 HTTP/1.1
 
+###
+POST https://ventureserver-3h0i.onrender.com/update/telegram-model HTTP/1.1
+Content-Type: application/json
+
+{
+    "model_name":"deepseek/deepseek-chat-v3.1:free"
+}

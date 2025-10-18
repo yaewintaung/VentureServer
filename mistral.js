@@ -1,5 +1,6 @@
 import ollama from "ollama";
-import { prompt2 } from "./prompts.js";
+import { generalTextPrompt, prompt2 } from "./prompts.js";
+import { parseAIJSON } from "./util/helper.js";
 
 const GenerateTasks = async (topic, model) => {
   const response = await ollama.chat({
@@ -24,7 +25,7 @@ const GenerateTasks = async (topic, model) => {
   return JSON.parse(content);
 };
 
-function formatUserTasksForAI(user) {
+export function formatUserTasksForAI(user) {
   if (!user || !Array.isArray(user.groups)) return "No groups found.";
 
   let output = `User: ${user.username}\nEmail: ${user.email}\n\nTask Overview:\n`;
@@ -63,13 +64,7 @@ export const NormalResponseMistral = async (user, prompt, model) => {
     messages: [
       {
         role: "system",
-        content: `
-        this is all user information in this system -
-          user: ${formatUserTasksForAI(user)}
-
-          you have to answer by this user data to questions,
-          if user is undefined just say you are not authenticated
-        `,
+        content: generalTextPrompt(),
       },
       {
         role: "user",

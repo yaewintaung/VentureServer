@@ -1,15 +1,19 @@
 import OpenAI from "openai";
-import { prompt2 } from "./prompts.js";
+import { generalTextPrompt, prompt2 } from "./prompts.js";
+import dotenv from "dotenv";
+import { parseAIJSON } from "./util/helper.js";
+import { formatUserTasksForAI } from "./mistral.js";
+
+dotenv.config();
 
 const openai = new OpenAI({
   baseURL: "https://openrouter.ai/api/v1",
-  apiKey:
-    "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",
+  apiKey: process.env.OPEN_ROUTER_KEY,
 });
 
-export async function GenerateOpenRouter(topic) {
+export async function GenerateOpenRouter(topic, model) {
   const completion = await openai.chat.completions.create({
-    model: "openai/gpt-4o",
+    model: model,
     messages: [
       {
         role: "system",
@@ -21,5 +25,26 @@ export async function GenerateOpenRouter(topic) {
       },
     ],
   });
-  return JSON.parse(completion.choices[0].message.content);
+  return parseAIJSON(completion.choices[0].message.content);
 }
+
+export const NormalResponseOpenRouter = async (user, prompt, model) => {
+  const completion = await openai.chat.completions.create({
+    model: model,
+    messages: [
+      {
+        role: "system",
+        content: generalTextPrompt(),
+      },
+      {
+        role: "user",
+        content: `
+          ${prompt}
+        `,
+      },
+    ],
+  });
+
+  const content = completion.choices[0].message.content;
+  return content;
+};
