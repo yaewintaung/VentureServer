@@ -14,6 +14,17 @@ const userDataFile = "./data/userData.json";
 const bot_token = process.env.BOT_TOKEN;
 const url = process.env.WEB_URL;
 let modelNameForTelegram = "mistralai/mistral-small-3.2-24b-instruct:free";
+let currentKey = "key3";
+export const API_KEYS = {
+  key1: process.env.API_KEY1,
+  key2: process.env.API_KEY2,
+  key3: process.env.API_KEY3,
+  key4: process.env.API_KEY4,
+};
+
+export const getKey = () => {
+  return currentKey;
+};
 
 if (!fs.existsSync(userDataFile)) fs.writeFileSync(userDataFile, "[]");
 
@@ -65,6 +76,7 @@ app.post("/generate-tasks", async (req, res) => {
   const { topic, model, isOnline } = req.body;
   console.log(model);
   console.log(isOnline);
+  console.log(API_KEYS[currentKey]);
 
   let tasks;
 
@@ -72,7 +84,7 @@ app.post("/generate-tasks", async (req, res) => {
     if (!isOnline) {
       tasks = await GenerateTasks(topic, model);
     } else {
-      tasks = await GenerateOpenRouter(topic, model);
+      tasks = await GenerateOpenRouter(topic, model, API_KEYS[currentKey]);
     }
 
     res.json({ topic, tasks });
@@ -326,6 +338,16 @@ app.post("/update/telegram-model", async (req, res) => {
   res.status(200).json({ message: "updated to " + model_name });
 });
 
+app.post("/update/api-key", async (req, res) => {
+  const { key } = req.body;
+  if (!API_KEYS[key]) {
+    return res.status(400).json({ error: "Invalid key name" });
+  }
+
+  currentKey = key;
+  res.status(200).json({ success: true, activeKey: key });
+});
+
 const now = new Date();
 
 const newTime = new Date(now);
@@ -415,7 +437,8 @@ bot.on("message", async (msg) => {
       const content = await NormalResponseOpenRouter(
         user,
         text,
-        modelNameForTelegram
+        modelNameForTelegram,
+        API_KEYS[currentKey]
       );
 
       bot.sendMessage(chatId, content, { parse_mode: "Markdown" });
@@ -431,13 +454,13 @@ cron.schedule("* * * * *", () => {
   tasks.forEach((task) => {
     const diff = task.dueDate - now;
     if (!task.triggered && diff <= 50 * 1000 && diff > 0) {
-      // bot.sendMessage(
-      //   1893030957,
-      //   `⚡ Task due: ${
-      //     task.title
-      //   } \n due date: ${task.dueDate.toDateString()}`,
-      //   opts
-      // );
+      bot.sendMessage(
+        1893030957,
+        `⚡ Task due: ${
+          task.title
+        } \n due date: ${task.dueDate.toDateString()}`,
+        opts
+      );
       task.triggered = true;
     }
   });
