@@ -14,12 +14,15 @@ const userDataFile = "./data/userData.json";
 const bot_token = process.env.BOT_TOKEN;
 const url = process.env.WEB_URL;
 let modelNameForTelegram = "mistralai/mistral-small-3.2-24b-instruct:free";
-let currentKey = "key1";
+let currentKey = "key3";
 export const API_KEYS = {
   key1: process.env.API_KEY1,
   key2: process.env.API_KEY2,
   key3: process.env.API_KEY3,
   key4: process.env.API_KEY4,
+  key5: process.env.API_KEY5,
+  key6: process.env.API_KEY6,
+  key7: process.env.API_KEY7,
 };
 
 export const getKey = () => {

@@ -26,6 +26,7 @@ export async function GenerateOpenRouter(topic, model, key) {
         },
       ],
     });
+
     return parseAIJSON(completion.choices[0].message.content);
   } catch (error) {
     console.log(error.message);

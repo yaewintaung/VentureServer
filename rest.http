@@ -17,7 +17,7 @@ Content-Type: application/json
     "group_title":"To do fir"
 }
 ###
-POST ventureserver-production-49a2.up.railway.app/update/api-key HTTP/1.1
+POST https://zelusonice.dpdns.org/update/api-key HTTP/1.1
 Content-Type: application/json
 
 {
