@@ -14,7 +14,7 @@ const userDataFile = "./data/userData.json";
 const bot_token = process.env.BOT_TOKEN;
 const url = process.env.WEB_URL;
 let modelNameForTelegram = "mistralai/mistral-small-3.2-24b-instruct:free";
-let currentKey = "key3";
+let currentKey = "key1";
 export const API_KEYS = {
   key1: process.env.API_KEY1,
   key2: process.env.API_KEY2,
